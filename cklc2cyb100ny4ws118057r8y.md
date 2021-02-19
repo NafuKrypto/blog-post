@@ -1,0 +1,64 @@
+## Android: Display Timestamp in a Layout
+
+In the below snippet, the **SimpleDateFormat** class is used to display timestamps of default local. The class helps to **format and parse** dates and times.
+
+```1. The  Textview will display the timestamp generated in the backend``` 
+
+ 
+```
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">  
+ 
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center" />
+    
+</LinearLayout>``` 
+
+
+
+
+```2. The  SimpleDateFormat class displays localized dates and times according to the given pattern. When adding the below code make sure your package name doesn't change from the one that is generated while creating your project file.The Date class used for an instant time with millisecond precision. ``` 
+
+``` 
+package com.example.blog_2timestamp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.TextView;
+
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView dateTextview;
+        dateTextview=findViewById(R.id.time);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy   'at' HH:mm:ss z");
+        Date date=new Date();
+        String currentDateandTime = dateFormat.format(date);
+        dateTextview.setText(currentDateandTime);
+    }
+}```
+
+```Output ``` 
+
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1613724697276/2YYDmBLn0.png)
+ 
+
