@@ -1,4 +1,4 @@
-## Find Phone-number from text in Python
+## Find Phone-number from a text in Python
 
 If you know a phone number pattern, you can easily find that from any text using python.
 In Bangladesh, the pattern of a phone number is: +880-operator code-8 digit number
