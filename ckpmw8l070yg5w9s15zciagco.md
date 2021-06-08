@@ -1,5 +1,6 @@
 ## Python: play an audio file with pygame
 
+
 Some days ago , I was working on a project where I needed to play an audio file that my program generated. So in order to that, I used a library named pygame. It helped me to play the audio file.
 
 **What is Pygame?**
@@ -59,6 +60,8 @@ mixer.init()
 mixer.music.load('output.mp3')
 mixer.music.play()
 ``` 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/079vRf69OcU" title="YouTube video player" text-align="center" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;  picture-in-picture" allowfullscreen></iframe>
 
  
 **Reference:**
