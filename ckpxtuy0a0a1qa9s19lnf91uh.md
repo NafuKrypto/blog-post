@@ -1,4 +1,4 @@
-## Make your own Wikipedia in Bangla language with Python
+## Make your own Wikipedia and retrieve it in Bangla with Python
 
 There could be a lot of time where you had to access data from Wikipedia and parse it as necessary in your program. In Python, you can do it easily with a python library named **Wikipedia.** In this blog I will show you how can you get data from the wiki in Bangla language. If you can understand the code, you can access data in any language.
 
