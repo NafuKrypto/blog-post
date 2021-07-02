@@ -10,6 +10,8 @@ Let's see how we can use it in our code. But before that, we need to have our en
 2. Android Studio
 
 # Start Coding
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lV8YK9AGv2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 1) In the main activity the button will create the alert dialog when it is clicked.
 
 ``` activity_main.xml ```
