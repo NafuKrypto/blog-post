@@ -22,7 +22,7 @@ Today I will show you in my blog, how to convert from decimal to other number sy
 ```
 print("Enter decimal input:")
 dec= int(input())  
-result_bin=bin(n).replace("0b", "")  
+result_bin=bin(dec).replace("0b", "")  
 print("Binary:")
 print(result_bin)
 ``` 
