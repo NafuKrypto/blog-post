@@ -19,6 +19,8 @@ Today I will show you in my blog, how to convert from decimal to other number sy
 ```The built-in functions in python we will be using are : bin(),hex(),oct().These functions only takes decimal integer number and will return a string. ``` 
 
 **Decimal to Binary**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qoecvu8_Pcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ```
 print("Enter decimal input:")
 dec= int(input())  
