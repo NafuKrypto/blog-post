@@ -13,6 +13,9 @@ A QR code consists of squares in a square grid on a background that stores infor
 In python you can easily make a basic QR code generator which you can use later in your  projects. In this blog , we will see how we can make a very simple and basic QR code generator. We won't dive into any complex coding. So , we will take a simple text and convert it into a QR code.
 ***
 ##   Let's start
+
+```To watch the video below, set 1080p quality in YouTube settings. Otherwise console looks a little blur.``` 
+
 <iframe width="760" height="415" src="https://www.youtube.com/embed/TPB2EozIbz0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 + ### **Pre-requisite**
 
